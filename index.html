@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>New HTML page</title>
+    <meta name="viewport" content="width=device-width" />
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="style.css" />
+    <style type="text/css" rel="stylesheet"></style>
+    <script type="text/javascript" src="rand.js"></script>
+  </head>
+  <body>
+    <form id="form">
+      <h2>Generate random numbers</h2>
+      <div class="field">
+        <label for="numValues">Values</label>
+        <input type="text" id="numValues" name="numValues" />
+      </div>
+      <br />
+      <div class="field">
+        <label for="lowerBound">From</label>
+        <input type="text" id="lowerBound" name="lowerBound" />
+      </div>
+      <div class="field">
+        <label for="upperBound">To</label>
+        <input type="text" id="upperBound" name="upperBound" />
+      </div>
+      <br />
+      <div class="field">
+        <label for="prefix">Prefix</label>
+        <input type="text" id="prefix" name="prefix" />
+      </div>
+      <div class="field">
+        <label for="suffix">Suffix</label>
+        <input type="text" id="suffix" name="suffix" />
+      </div>
+      <br />
+      <button id="submitButton">Generate</button>
+    </form>
+    <div class="rightColumn">
+      <div id="area"></div>
+      <!-- <button onlicks="copyAreaContents">Copy</button> -->
+    </div>
+  </body>
+</html>
